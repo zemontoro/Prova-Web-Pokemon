@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cebola nas Costas</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+</head>
+<body>
+    
+    <!-- HEADER -->
+    <nav class="navbar sticky-top navbar-light bg-white">
+        <dia class="col-lg-12 ">
+            <div class="row">
+                <div class="col-lg-2 menu-icons">
+                    <img class="img-center" height="56"
+                        src="data:image/png;base64,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"
+                        alt="" />
+                     <a href="index.html"><span>Monstros de Bolso</span></a>
+                   
+                </div>
+
+                <div class="col-lg-6 menu-icons header-text">
+                    <div class="col-2">
+                        <a href=""><span>Descobrir</span></a>
+                    </div>
+
+                    <div class="col-4">
+                        <a href=""><span>Minha Lista</span></a>
+                    </div>
+
+                    <input type="text" class="form-control form-control-md form-input"
+                        placeholder="Procure seu Pokemongo">
+                        <i class="btn btn-outline-secondary material-icons">search</i>
+                </div>
+                
+                <div class="col-lg-4">
+                    <div class="menu-icons">
+                        <a href=""><i class="material-icons icon-md">thumb_up</i></a>
+                        <a href=""><i class="material-icons icon-md">add</i></a>
+                        <a href=""><i class="material-icons icon-md">edit</i></a>
+                        <div class="vertical-line"></div>
+                        
+                        <a href=""><i class="material-icons icon-md">bug_report</i></a>
+                        <img class="img-center" height="46" 
+                            src="https://cdn.drawception.com/images/panels/2012/4-1/zdTfOSrGEq-2.png" />
+                    </div>
+                </div>
+            </div>
+        </dia>
+        <div class="col-12">
+            <hr />
+        </div>
+    </nav>
+    <!-- HEADER -->
+
+                <!-- INICIO POKEMON -->
+
+                <div class="">
+                       <span class="tittle">#004 - Fogo no Rabo - Evoluções</span> 
+                       
+                    <div class="pok">
+
+                        <div class="bulba">
+                            <div class="containerpoke-char">
+                                
+                                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/005.png" alt="Calanguinho Verde">
+                                <!-- SETA EVOLUÇÃO -->
+                                #005 
+                                <div class="seta"></div> 
+                                <img src="images/charizard.png" alt="Calango Verde">
+                                #006
+                                <!-- SETA EVOLUÇÃO -->
+                                <div class="seta"></div> 
+                                <img src="images/chari x.png" alt="Calangão Verde">
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                        
+                            
+                  <div class="info">
+                        <span class="tittle">1. Informações</span> 
+                        <div class="detailss">
+                                
+                            <!-- INFORMAÇÕES SOBRE O PAQUIMON -->
+                            <table>
+                                    <tr>
+                                        <th>ID Pokedex:<hr></th> 
+                                        <td> 004<hr></td>
+                                    </tr>
+                                    <tr>
+                                        <th>Tipo<hr></th> 
+                                        <td> <button class="tipo-dragao">Dragão</button> <button class="tipo-fogo">Fogo</button><hr></td>
+                                    </tr>
+                                    
+                                    
+                                    <tr>
+                                        <th>Altura<hr></th>
+                                        <td> 1.5 m<hr></td>
+                                    </tr>
+                                    <tr>
+                                        <th>Peso<hr></th>
+                                        <td> 74 Kg<hr></td>
+                                    </tr>
+                                    <tr>
+                                        <th> Habilidades <hr></th>
+                                        <td> (1) Cuzada de Fogo <hr>
+                                        </td>
+                                    </tr>
+                            </table>
+
+                            <!-- STATUS BASE DO PAQUIMON -->
+                            <table>
+                                    <tr>
+                                        <th><span>Barra  de</span></th> 
+                                        <td class="limitador">  <strong><span>Status do Cebola nas Costas</span></strong></td>
+                                    </tr>
+                                    <tr>
+                                        <th>HP<hr></th> 
+                                        <!-- BARRA DE HP -->
+                                        <td>40<div class="barra-status" style="width: 25%;"></div></td>
+                                    </tr>
+                                    <tr>
+                                        <th>Attack<hr></th>
+                                        <td>75<div class="barra-status" style="width: 80%;"></td>
+                                    </tr>
+                                    <tr>
+                                        <th>Defense<hr></th>
+                                        <td>30<div class="barra-status" style="width: 44%;"></td>
+                                    </tr>
+                                    <tr>
+                                        <th> Speed<hr></th>
+                                        <td>55<div class="barra-status" style="width: 64%;">
+                                        </td>
+                                    </tr>
+                            </table>
+                                
+                        </div>
+
+                    </div>
+
+                    
+
+                
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+
+!
+
+            <div class="list">
+                <div class="list__container">
+                    <!-- POKE -->
+                    <div class="poke">
+                        <div class="poke__thumbnail">
+                            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png" alt="" />
+                            <div class="poke__details">
+                                <div class="title">
+                                    <a><span>Calango com Planta</span></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- POKE -->
+                    <!-- POKE -->
+                    <div class="poke">
+                        <div class="poke__thumbnail">
+                            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/005.png" alt="" />
+                            <div class="poke__details">
+                                <div class="title">
+                                    <a><span>Calango com Fogo</span></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- POKE -->
+
+                    <!-- POKE -->
+                    <div class="poke">
+                        <div >
+                            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/008.png" alt="" />
+                            <div class="poke__details">
+                                <div class="title">
+                                    <a><span>Tartaruga Invocada</span></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- POKE -->
+
+                    <!-- POKE -->
+                    <div class="poke">
+                        <div >
+                            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/015.png" alt="" />
+                            <div class="poke__details">
+                                <div class="title">
+                                    <a><span>Abelha ET de Varginha</span></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- POKE -->
+
+                    <!-- POKE -->
+                    <div class="poke">
+                        <div class="poke__thumbnail">
+                            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/020.png" alt="" />
+                            <div class="poke__details">
+                                <div class="title">
+                                    <a><span>Ratazana</span></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- POKE -->
+
+                    <!-- POKE -->
+                    <div class="poke">
+                        <div class="poke__thumbnail">
+                            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/024.png" alt="" />
+                            <div class="poke__details">
+                                <div class="title">
+                                    <a><span>Celeste II (Castelo Ra-Tim-Bum)</span></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- POKE -->
+                    <!-- POKE -->
+                    <div class="poke">
+                        <div class="poke__thumbnail">
+                            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/050.png" alt="" />
+                            <div class="poke__details">
+                                <div class="title">
+                                    <a><span>Verruga</span></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- POKE -->
+
+                    <!-- POKE -->
+                    <div class="poke">
+                        <div class="poke__thumbnail">
+                            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/083.png" alt="" />
+                            <div class="poke__details">
+                                <div class="title">
+                                    <a><span>Marreco Ladrão</span></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- POKE -->
+
+                    <!-- POKE -->
+                    <div class="poke">
+                        <div class="poke__thumbnail">
+                            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/036.png" alt="" />
+                            <div class="poke__details">
+                             
+                                    <a><span>Docinho Rosa</span></a>
+                             
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- POKE -->
+
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
